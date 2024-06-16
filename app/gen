@@ -1,0 +1,1 @@
+protoc -I=../protos ../protos/greeter.proto --js_out=import_style=commonjs,binary:generated --grpc-web_out=import_style=typescript,mode=grpcweb:generated
